@@ -1,0 +1,41 @@
+{
+	"name": "ommu/cv",
+	"description": "Curriculum Vitae (CV) Module from Ommu Platform",
+	"type": "ommu-module",
+	"keywords": [
+		"module",
+		"cv",
+		"curriculum-vitae",
+		"ommu",
+		"ommu-platform",
+		"yii2"
+	],
+	"license": "Apache-2.0",
+	"homepage": "https://github.com/ommu/mod-cv",
+	"support": {
+		"issues": "https://github.com/ommu/mod-cv/issues",
+		"wiki": "https://github.com/ommu/mod-cv/wiki",
+		"source": "https://github.com/ommu/mod-cv"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ommu/mod-cv.git"
+	},
+	"authors": [
+		{
+			"name": "Putra Sudaryanto",
+			"email": "putra@sudaryanto.id",
+			"homepage": "https://sudaryanto.id",
+			"role": "Creator"
+		}
+	],
+	"require": {
+		"php": "~7.0",
+		"yiisoft/yii2": "~2.0.13"
+	},
+	"autoload": {
+		"psr-4": {
+			"ommu\\cv\\": ""
+		}
+	}
+}
